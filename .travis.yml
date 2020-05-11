@@ -5,9 +5,9 @@ branches:
 
 language: java
 
-arch:
-  - amd64
-  - arm64
+env:
+  - ARCH=x64
+  - ARCH=x32
 
 jdk:
   - oraclejdk8
