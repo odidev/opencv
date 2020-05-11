@@ -8,6 +8,7 @@ language: java
 env:
   - ARCH=x64
   - ARCH=x32
+  - ARCH=aarch64
 
 jdk:
   - oraclejdk8
